@@ -1,0 +1,14 @@
+-muwx
+-i ./bin/Debug\adc.ihx
+-b HOME = 0x8000
+-b DATA = 0x0001
+-k C:\Program Files\SDCC\bin\..\lib\stm8
+-l stm8
+-l stm8
+./src/adc.rel
+./src/timer.rel
+./src/stm8_interrupt_vector.rel
+./src/main.rel
+./src/uart.rel
+
+-e

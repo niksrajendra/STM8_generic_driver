@@ -1,1 +1,2 @@
-# STM8_generic_driver
+# STM8S_generic_driver
+This repository is created to have STM8S series driver for all peripheral. In initial commit UART and GPIO are working for limited set of option. Project is configured to use SDCC compiler and codeblocks as IDE with support for MINGW. To compile and integrate Makefile you need to install MINGW and install component basic and mysys. If you face any issue you can contact me on niksrajendra.lalwani@gmail.com
